@@ -1,6 +1,9 @@
 # GitNuff
 
-An exceedingly lightweight frontend for GitHub that just shows README's
+An exceedingly lightweight frontend for GitHub that just shows README's and
+ways to get the code. It's designed to be used with lightweight browsers like
+lynx, neosurf, netsurf, or w3m that can't handle GitHub's fancy JavaScript
+based UI.
 
 ## Installation and Usage
 
@@ -12,7 +15,7 @@ An exceedingly lightweight frontend for GitHub that just shows README's
   ```bash
   ./gitnuff.py
   ```
-3. Open your browser to http://localhost:8009/
+3. Open your browser to http://localhost:8009/someorg/somerepo
 
 ### Environment variables
 
